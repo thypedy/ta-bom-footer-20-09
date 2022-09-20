@@ -1,0 +1,77 @@
+/**
+* Folha de estilo customizada do site
+* @author Seu Nome
+*/
+
+/* Layout */
+.flexfooter{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*
+body {
+    background-color: #ffffff;
+}
+*/
+
+/*Rodapé*/
+footer{
+    padding: 50px 0px;  
+    background-color: rgb(51, 52, 56);
+    color: #fff;
+    text-align: center;
+}
+
+#social{
+    margin-bottom: 25px;
+}
+
+/* Smartphone Landscape */ 
+@media (min-width: 576px) {
+    /*
+    body {
+        background-color: #ffff00;
+    }
+    */
+
+    /* Rodapé */
+    .flexfooter{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social{
+        margin: 0;
+    }
+}
+
+/* Tablet Portrait */ 
+@media (min-width: 768px) {
+    /*
+    body {
+        background-color: #ff00c8;
+        color: #ffffff;
+    }
+    */
+}
+
+/* Tablet Landscape */ 
+@media (min-width: 992px) {
+    /*
+    body {
+        background-color: #484955;        
+    }
+    */
+}
+
+/* Notebooks/PCs/SmartTV */ 
+@media (min-width: 1200px) {
+    /*
+    body {
+        background-color: #fff; 
+        color: #000000;       
+    }
+    */
+}

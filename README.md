@@ -1,1 +1,2 @@
-# ta-bom-footer-20-09
+# 2EMIA
+Repositório de aula.
